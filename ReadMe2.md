@@ -1,10 +1,10 @@
 
 # Project Chase
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+No license selected.
 
 ## Description
 
-eisoihsdoihs
+Doggo goes around being awesome
 
 ## Table of Contents 
 
@@ -21,22 +21,22 @@ eisoihsdoihs
 ## Installation
 
 To install necessary dependencies, run the following command:
-sdgsdgdgdf
+none
 ```
 npm i
 ```
 
 ## Usage
 
-dgdrgdrg
+npm
 
 ## License
 
-This project is licensed under the apache license.
+This project is licensed under the  license.
   
 ## Contributing
 
-dgdgdfgdf
+none
 
 ## Tests
 

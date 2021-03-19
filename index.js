@@ -6,43 +6,44 @@ const inquirer = require("inquirer");
 const questions = [
     {
       type: 'input',
-      message: 'What is github username?',
+      message: 'Hi there, what is your github username?',
       name: 'name',
     },
     {
       type: 'input',
-      message: 'What is your email?',
+      message: 'What is your email address?',
       name: 'email',
     },
     {
       type: 'input',
-      message: 'What is the project title?',
+      message: 'What is your project title?',
       name: 'title',
     },
     {
       type: 'input',
-      message: 'What is your description?',
+      message: 'What is the description of your project?',
       name: 'description',
     },
     {
       type: 'input',
-      message: 'What are your Installation instructions?',
+      message: 'What are your installation instructions?',
       name: 'installation',
     },
     {
       type: 'input',
-      message: 'What is your Usage information?',
+      message: 'What is your usage information?',
       name: 'usage',
+      default: 'npm',
     },
     {
-      type: 'input',
-      message: 'What is your License?',
+      type: 'checkbox',
+      message: 'What is license are you using?',
       name: 'license',
       choices: ["apache", "boost", "bsd"],
     },
     {
       type: 'input',
-      message: 'What are your Contribution guidelines?',
+      message: 'What are your contribution guidelines?',
       name: 'contributing',
     },
   ];
