@@ -37,7 +37,7 @@ const questions = [
     },
     {
       type: 'checkbox',
-      message: 'What is license are you using?',
+      message: 'What license are you using?',
       name: 'license',
       choices: ["apache", "boost", "bsd"],
     },
@@ -56,16 +56,6 @@ inquirer
     fs.writeFile(fileName, generateMarkdown(data), (err)=> err ? console.log(err) : console.log("Yay!"))
   }
   );
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
 
 function generateMarkdown(data) {
     const licenseChoice = data.license;
