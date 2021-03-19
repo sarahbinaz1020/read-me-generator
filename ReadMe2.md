@@ -1,10 +1,10 @@
 
-# Project Chase
+# Project X
 No license selected.
 
 ## Description
 
-Doggo goes around being awesome
+X is awesome
 
 ## Table of Contents 
 
@@ -32,7 +32,7 @@ npm
 
 ## License
 
-This project is licensed under the  license.
+This project is licensed under the apache license.
   
 ## Contributing
 

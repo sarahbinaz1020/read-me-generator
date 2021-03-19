@@ -39,7 +39,7 @@ const questions = [
       type: 'checkbox',
       message: 'What license are you using?',
       name: 'license',
-      choices: ["apache", "boost", "bsd"],
+      choices: ["Apache", "Boost", "Bsd"],
     },
     {
       type: 'input',
@@ -61,18 +61,17 @@ function generateMarkdown(data) {
     const licenseChoice = data.license;
     let license;
     switch (licenseChoice) {
-        case "apache":
+        case "Apache":
             license = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
             break;
-        case "boost":
+        case "Boost":
             license = `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
             break;
-        case "bsd":
+        case "Bsd":
             license = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
             break; 
         default:
             license = `No license selected.`;
-            console.log("No license selected.");
     }
 
 return`
