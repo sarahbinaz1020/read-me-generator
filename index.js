@@ -36,8 +36,8 @@ const questions = [
       default: 'npm',
     },
     {
-      type: 'checkbox',
-      message: 'What license are you using?',
+      type: 'list',
+      message: 'What is the license are you using?',
       name: 'license',
       choices: ["Apache", "Boost", "Bsd"],
     },
@@ -53,9 +53,18 @@ inquirer
 
   .then((data) =>{
     const fileName = "ReadMe2.md"
-    fs.writeFile(fileName, generateMarkdown(data), (err)=> err ? console.log(err) : console.log("Yay!"))
+    fs.writeFile(fileName, generateMarkdown(data), (err)=> err ? console.log(err) : console.log("Yay, you sucessfully wrote a ReadMe file!"))
   }
   );
+
+//   // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
+
+// // TODO: Create a function to initialize app
+// function init() {}
+
+// // Function call to initialize app
+// init();
 
 function generateMarkdown(data) {
     const licenseChoice = data.license;

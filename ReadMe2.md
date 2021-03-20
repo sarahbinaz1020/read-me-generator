@@ -1,10 +1,10 @@
 
-# Project X
-No license selected.
+# Project Chase
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
 
-X is awesome
+None
 
 ## Table of Contents 
 
@@ -21,7 +21,7 @@ X is awesome
 ## Installation
 
 To install necessary dependencies, run the following command:
-none
+None
 ```
 npm i
 ```
@@ -32,11 +32,11 @@ npm
 
 ## License
 
-This project is licensed under the apache license.
+This project is licensed under the Boost license.
   
 ## Contributing
 
-none
+None
 
 ## Tests
 
